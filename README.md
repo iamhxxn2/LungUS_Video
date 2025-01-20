@@ -5,6 +5,12 @@ Lung ultrasound (LUS) has emerged as a crucial bedside imaging tool for critical
 ## Dataset
 ![Image](https://github.com/user-attachments/assets/793b4996-15bf-4f2d-8566-31733d358afa)
 
+## Model train
+```python
+public struct CGSize {
+  public var width: CGFloat
+  public var heigth: CGFloat
+  ...
 ## Status
 
 ## Members
