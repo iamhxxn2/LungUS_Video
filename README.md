@@ -10,8 +10,9 @@ Lung ultrasound (LUS) has emerged as a crucial bedside imaging tool for critical
 public struct CGSize {
   public var width: CGFloat
   public var heigth: CGFloat
-  ...
-## Status
+...
+
+**## Status**
 
 ## Members
 
