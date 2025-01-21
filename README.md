@@ -7,10 +7,10 @@ Lung ultrasound (LUS) has emerged as a crucial bedside imaging tool for critical
 
 ## Environment & Code
 - Clone this repository and navigate to the LungUS_Video folder
-  ```python
+  ```
   git clone https://github.com/iamhxxn2/LungUS_Video.git
   cd LungUS_Video
-
+  ```
 - Conda setting
   ```python
   conda env create -f LUV_Net.yaml
