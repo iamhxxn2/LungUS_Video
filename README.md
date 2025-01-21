@@ -17,6 +17,7 @@ Lung ultrasound (LUS) has emerged as a crucial bedside imaging tool for critical
   conda activate LUV_Net
 
 ## Model train
+- Main experiments
   ```python
     LUV-Net: python train.py --model_name 'LUV_Net' --num_heads 8 --kernel_size 13 --batch_size 4 --accumultation_steps 1
     LUV-Net: python train.py --model_name 'USVN' --pooling_method 'attn' --num_heads 8 --batch_size 4 --accumultation_steps 1
@@ -27,6 +28,7 @@ Lung ultrasound (LUS) has emerged as a crucial bedside imaging tool for critical
 
 ```python
   LUV-Net_: python train.py --model_name 'LUV-Net_' --pooling_method 'attn_multilabel_conv' --num_heads 8 --batch_size 4 --accumultation_steps 1
+
 
 ## Status
 
