@@ -29,7 +29,8 @@ Lung ultrasound (LUS) has emerged as a crucial bedside imaging tool for critical
 ```python
   LUV-Net_: python train.py --model_name 'LUV-Net_' --pooling_method 'attn_multilabel_conv' --num_heads 8 --batch_size 4 --accumultation_steps 1
 
-
+## Model train
+## Model train
 ## Status
 ㅇㄹㅇㄹ
 
