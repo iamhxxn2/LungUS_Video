@@ -15,7 +15,6 @@ Lung ultrasound (LUS) has emerged as a crucial bedside imaging tool for critical
   ```python
   conda env create -f LUV_Net.yaml
   conda activate LUV_Net
-  '''
   
 ## Model train
 ```python
@@ -23,13 +22,11 @@ Lung ultrasound (LUS) has emerged as a crucial bedside imaging tool for critical
   LUV-Net: python train.py --model_name 'USVN' --pooling_method 'attn' --num_heads 8 --batch_size 4 --accumultation_steps 1
   LUV-Net: python train.py --model_name 'C3D' --batch_size 4 --accumultation_steps 1
   LUV-Net: python train.py --model_name 'R2Plus1D' --batch_size 4 --accumultation_steps 1
-...
 
 - Effectiveness of Temporal Feature Extraction Study
 
 ```python
   LUV-Net_: python train.py --model_name 'LUV-Net_' --pooling_method 'attn_multilabel_conv' --num_heads 8 --batch_size 4 --accumultation_steps 1
-...
 
 ## Status
 
