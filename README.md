@@ -5,14 +5,33 @@ Lung ultrasound (LUS) has emerged as a crucial bedside imaging tool for critical
 ## Dataset
 ![Image](https://github.com/user-attachments/assets/793b4996-15bf-4f2d-8566-31733d358afa)
 
+## Environment & Code
+- Clone this repository and navigate to the LungUS_Video folder
+  ```python
+  git clone https://github.com/iamhxxn2/LungUS_Video.git
+  cd LungUS_Video
+  '''
+- Conda setting
+  ```python
+  conda env create -f LUV_Net.yaml
+  conda activate LUV_Net
+  '''
+  
 ## Model train
 ```python
-public struct CGSize {
-  public var width: CGFloat
-  public var heigth: CGFloat
+  LUV-Net: python train.py --model_name 'LUV_Net' --num_heads 8 --kernel_size 13 --batch_size 4 --accumultation_steps 1
+  LUV-Net: python train.py --model_name 'USVN' --pooling_method 'attn' --num_heads 8 --batch_size 4 --accumultation_steps 1
+  LUV-Net: python train.py --model_name 'C3D' --batch_size 4 --accumultation_steps 1
+  LUV-Net: python train.py --model_name 'R2Plus1D' --batch_size 4 --accumultation_steps 1
 ...
 
-**## Status**
+- Effectiveness of Temporal Feature Extraction Study
+
+```python
+  LUV-Net_: python train.py --model_name 'LUV-Net_' --pooling_method 'attn_multilabel_conv' --num_heads 8 --batch_size 4 --accumultation_steps 1
+...
+
+## Status
 
 ## Members
 
