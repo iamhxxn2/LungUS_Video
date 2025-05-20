@@ -96,8 +96,14 @@ Lung ultrasound (LUS) has emerged as a crucial bedside imaging tool for critical
   ```
   
 **Video to Clip (1s with 20% overlap)**
-- Development set: `clip_avi_dataset`  
-- Temporally separated set: `clip_avi_temporally_separated_dataset`
+- Development set
+  ```text
+    D:\Research\LUS\Dataset\clip_avi_dataset
+  ```
+- Temporally separated set
+  ```text
+    D:\Research\LUS\Dataset\clip_avi_temporally_separated_dataset
+  ```
 
 ### 3.2. Data Collection & Overview
 ![Image](https://github.com/user-attachments/assets/793b4996-15bf-4f2d-8566-31733d358afa)
