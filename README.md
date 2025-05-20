@@ -191,7 +191,7 @@ delong_test.ipynb
 
 ### 7.2. Model parameter size / GFLOPS computation & Inference Time 
 
-This analysis is included in the ""**LUV_Net_model_development_test.ipynb**"".
+This analysis is included in the "**LUV_Net_model_development_test.ipynb**".
 
 ## Status
 The model and results described in this repository have been accepted as a **full paper** at the **Medical Imaging with Deep Learning (MIDL) 2025** conference.
