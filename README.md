@@ -159,7 +159,7 @@ LUV-Net: python train_LUV_Net.py --model_name 'LUV_Net' --pooling_method 'attn_m
 ### 4.2. Effectiveness of Temporal Feature Extraction Study
 ```
 LUV-Net: python train_LUV_Net.py --model_name 'LUV_Net' --pooling_method 'attn_multilabel_conv' --num_heads 8 --kernel_size 13 --batch_size 4 --accumultation_steps 1
-LUV-Net_: python train.py --model_name 'LUV_Net_TFWO' --pooling_method 'attn_multilabel_conv' --num_heads 8 --batch_size 4 --accumultation_steps 1
+LUV_Net_TFWO: python train.py --model_name 'LUV_Net_TFWO' --pooling_method 'attn_multilabel_conv' --num_heads 8 --batch_size 4 --accumultation_steps 1
 ```
 
 ### 4.3. Evaluation (Model development set / Temporally separated set)
